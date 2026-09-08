@@ -2,8 +2,3 @@ remote_theme: pages-themes/cayman@v0.2.0
 title: "Eclair-Tracy 的技术博客"
 description: 幸福的原因是元英
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: IMG_4057.jpeg
