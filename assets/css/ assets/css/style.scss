@@ -1,0 +1,11 @@
+---
+---
+@import "{{ site.theme }}";
+
+.page-header {
+  background: url("/IMG_4057.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: multiply;
+}
