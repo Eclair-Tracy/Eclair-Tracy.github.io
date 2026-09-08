@@ -1,24 +1,24 @@
 ---
 ---
-​ @import@import.日期文本​;
+@import "{{ site.theme }}";
 
-.页面标题 
-  背景色: ​​,​​,​​​,,  背景: ​((​(0(((("/IMG_4057.jpeg"(rgba(​
-  背景尺寸: 涉及;
-  背景位置: 中心;
-rgba(0​​  背景色: ​​​​,​​,​​​,,,0.4);
-  背景混合模式: 乘;
+.page-header {
+  background: url("/IMG_4057.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: multiply;
 }
 
-.主要内容 a {
-  颜色:#222;
-  文字装饰:没有人;
+.main-content a {
+  color:#222;
+  text-decoration:none;
 }
-.主要内容 a:盘旋 {
-  颜色:#222;
-  文字装饰:下划线;
+.main-content a:hover {
+  color:#222;
+  text-decoration:underline;
 }
 
-.日期文本​​
-  颜色​:#777;
+.date-text{
+  color:#777;
 }
