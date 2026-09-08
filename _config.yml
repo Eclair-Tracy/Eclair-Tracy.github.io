@@ -6,4 +6,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /banner.jpg
+      image: IMG_4057.jpeg
