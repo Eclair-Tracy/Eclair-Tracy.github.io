@@ -1,0 +1,30 @@
+---
+title: Bugku - 你必须让他停下
+date: 2026-09-11
+categories: CTF Web
+tags: [Web, JavaScript,前端调试]
+---
+
+## 题目描述
+访问页面，网页会依靠JavaScript定时器持续自动刷新，提示`Stop at panda ! u will get flag`，需要停止页面刷新，找到隐藏flag。
+
+## 解题思路
+页面使用JS的`setTimeout`实现页面自动刷新。flag放在网页HTML源码里，用`style="display:none"`隐藏，页面上肉眼看不到。
+每次刷新服务器随机返回不同图片页面，只有加载10.jpg的页面源码中包含flag。
+解题思路：浏览器开发者工具禁用JS，终止自动刷新；在出现目标图片页面时，读取原始网页源码拿到flag。
+
+## 解题过程
+1. 打开题目链接，页面会不断自动刷新。
+2. 按下F12打开开发者工具，使用`Ctrl+Shift+P`打开命令面板，输入`javascript`，选择禁用JavaScript，页面停止自动刷新。
+3. 勾选网络面板中的`Keep log（保留日志）`，手动刷新页面，等待出现10.jpg图片。
+4. 在网络请求列表中，找到10.jpg对应的文档请求，查看请求的【响应】原始HTML源码。
+5. 在源码底部找到`<a style="display:none">flag{c221102cd8b100f17d3d87b34804fdec}</a >`，复制flag提交，解题完成。
+
+## 知识点
+1. `setTimeout` 是JavaScript定时器，可用来执行页面自动刷新。
+2. `display:none` 的HTML元素不会显示在页面上，但是仍然存在网页源码中。
+3. 浏览器「元素」面板是渲染后的DOM树，网络面板的【响应】才是服务器返回的原始HTML。
+
+## 总结
+本题考察前端调试基础。网页依靠JS定时器实现不停刷新，我们通过浏览器调试工具禁用JS，停止页面自动刷新；flag写在隐藏HTML标签中，需要读取服务器返回的原始源码获取。
+通过这道题学会了浏览器开发者工具命令面板、网络抓包，理解`display:none`隐藏元素的原理。
