@@ -1,0 +1,18 @@
+---
+title: Bugku - GET
+date: 2026-09-11
+categories: CTF Web
+tags: [Web, PHP, GET参数]
+---
+
+## 题目描述
+打开页面，直接显示一段PHP源码：
+```php
+$what=$_GET['what'];
+echo $what;
+if($what=='flag')
+echo 'flag{****}';
+## 解题过程
+$_GET['what']代表URL地址栏传参数
+在网页末尾加上？what=flag
+回车访问 完整flag{c864c478ecf15f5a44a2ee54cdc37a6e}
