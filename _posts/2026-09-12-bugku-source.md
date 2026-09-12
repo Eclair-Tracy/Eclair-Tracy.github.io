@@ -1,6 +1,16 @@
-##题目描述
+---
+title: BugkuCTF-source Writeup
+date: 2026-09-11
+categories: [CTF, Web]
+tags:[Web, git泄露, 源码泄露, 目录扫描]
+--=
+
+## 题目描述
+
 访问目标网站存在git源码泄露，通过git-dumper下载.git仓库，利用git reflog查找历史提交记录，找到被删除的flag
-##解题步骤
+
+## 解题步骤
+
 下载git仓库源码
 在cmd执行命令http://160.202.254.160:16606/.git/ ./source_git
 下载完成后，目录生成source_git文件夹
