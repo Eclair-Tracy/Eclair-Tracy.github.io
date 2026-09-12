@@ -1,14 +1,16 @@
 ---
-title: BugkuCTF-GET Writeup
+title: BugkuCFT-GET Writeup
 date: 2026-09-11
-categories: CTF
+categories: [CTF, Web]
 tags: [Web, PHP, GET参数]
 ---
 
 # Bugku CTF - GET Writeup
 
 ## 题目描述
-打开页面，直接显示一段PHP源码：
+
+打开页面，直接显示一段 PHP 源码：
+
 ```php
 $what=$_GET['what'];
 echo $what;
