@@ -1,5 +1,5 @@
 ---
-title: Bugku alert
+title: BugkuCTF-alertWriteup
 date: 2026-09-11
 categories: CTF Web
 tags: [Web,HTML实体编码]
