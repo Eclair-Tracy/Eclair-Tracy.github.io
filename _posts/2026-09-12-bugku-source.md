@@ -17,7 +17,8 @@ tags:[Web, git泄露, 源码泄露, 目录扫描]
 进入仓库目录
 cd source_git
 查看git所有历史提交记录git reflog
-结果
+
+# 结果
 d256328 HEAD@{0}: reset: moving to d25632
 13ce8d0 HEAD@{1}: commit: flag is here?
 fdce35e HEAD@{2}: reset: moving to fdce35e
