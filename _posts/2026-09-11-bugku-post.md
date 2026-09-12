@@ -1,44 +1,51 @@
-Bugku POST writeup
+title: Bugku - POST
+date: 2026-09-12
+categories: 【CTF，Web】
+tags: [Web, PHP, POST传参]
+---
 
-题目
+Bugku CTF - POST
 
-访问页面，页面显示PHP代码：
+问题描述
+
+访问题目页面，页面展示核心PHP源码：
 $what=$_POST['what'];
 echo $what;
 if($what=='flag'){
     echo 'flag{xxx}';
 }
-分析
+题目需要满足参数判断条件，才可输出对应flag。
 
-$_POST['what'] 代表接收POST请求中，参数名为what的数据。
-这道题不能用GET传参，GET参数放在URL，$_POST读取不到。我们需要构造POST请求，在请求体传入 what=flag，当变量$what等于字符串flag时，页面输出flag。
+解题思路
 
-解题步骤（浏览器F12抓包）
+1. 代码中使用 $_POST['what'] 接收数据，只识别POST请求体参数，URL的GET传参无法生效。
 
-1. 打开靶场页面，按下F12打开开发者工具，切换到【网络】面板，勾选Keep log，刷新页面，抓到当前页面的GET数据包。
+2. GET参数存放于URL地址栏，POST参数存放于数据包Body请求体中。
 
-2. 右键抓到的这条请求，选择编辑并重新发送。
+3. 我们需要手动构造POST表单请求，传入参数 what=flag，满足if判断条件即可获取flag。
 
-3. 在请求编辑界面，把请求方法从GET修改为POST。
+解题步骤
 
-4. 切换到Body标签，选择x-www-form-urlencoded表单格式。
+1. 打开靶场题目页面，按下键盘 F12 打开浏览器开发者工具，切换到网络(Network)面板，勾选保留日志，刷新页面抓取数据包。
 
-5. 添加表单参数：
+2. 右键抓取到的页面数据包，选择编辑并重新发送。
 
-◦ key（参数名）：what
+3. 将原本的 GET 请求方法 修改为 POST。
 
-◦ value（参数值）：flag
+4. 切换到 Body 表单栏目，选择 x-www-form-urlencoded 表单格式。
 
-6. 点击蓝色Send发送请求。
+5. 新增表单参数：参数名 what，参数值 flag。
 
-7. 在右侧预览/响应区域，页面返回内容中就出现flag。
+6. 点击发送请求，在响应预览界面即可查看返回的flag。
 
-Flag
+旗帜
 
 flag{09aa4e40059b3fb656a216d8f2db6229}
 
 总结知识点
 
-1. GET的参数放在URL；POST参数放在数据包的请求体Body里面。
+1. GET传参：参数携带在URL地址栏中，由 $_GET 接收。
 
-2. PHP中$_POST['参数名']专门读取POST表单提交的数据，GET传参无法触发判断。...
+2. POST传参：参数携带在请求体Body内，由 $_POST 接收。
+
+3. PHP超全局变量区分严格，GET、POST参数不能通用，需根据代码逻辑构造对应请求方式。
