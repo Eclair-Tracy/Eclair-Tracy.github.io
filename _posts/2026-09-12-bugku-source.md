@@ -2,7 +2,7 @@
 title: BugkuCTF-source Writeup
 date: 2026-09-11
 categories: [CTF, Web]
-tags:[Web, git泄露, 源码泄露, 目录扫描]
+tags: [Web, git泄露, 源码泄露, 目录扫描]
 ---
 
 ## 题目描述
