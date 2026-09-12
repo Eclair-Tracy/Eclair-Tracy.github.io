@@ -17,12 +17,12 @@ echo $what;
 if($what=='flag')
 echo 'flag{****}';
 
-##解题思路
+## 解题思路
 
 这道题考察PHP的GET传参。$_GET['what']用于接收URL中GET方式传递的what参数。
 当传入的参数what的值等于flag时，代码就会输出flag。
 
-##解题步骤
+## 解题步骤
 
 1. 在原网页URL的末尾，添加GET参数：?what=flag
 
@@ -30,10 +30,10 @@ echo 'flag{****}';
 
 3. 访问拼接后的URL，页面返回flag。
 
-##Flag
+## Flag
 
 flag{c864c478ecf15f5a44a2ee54cdc37a6e}
 
-##总结
+## 总结
 
 GET参数是Web基础知识点，GET参数附加在URL后方，服务端读取参数进行判断，构造对应参数拿到flag。
