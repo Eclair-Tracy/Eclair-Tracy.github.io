@@ -28,4 +28,8 @@ fdce35e HEAD@{5}: commit: flag is here?
 d256328 HEAD@{6}: master
 e0b8e8e HEAD@{7}: commit (initial): this is index.html
 记录commit哈希
-查看历史提交记录获取内容flag{git_is_good_distributed_version_control_system}
+查看历史提交记录获取内容
+
+## Flag
+
+flag{git_is_good_distributed_version_control_system}
