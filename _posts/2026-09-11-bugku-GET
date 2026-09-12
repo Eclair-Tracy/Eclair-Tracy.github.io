@@ -1,11 +1,12 @@
 ---
 title: BugkuCTF-GET Writeup
 date: 2026-09-11
-categories: [CTF, Web]
+categories: CTF
 tags: [Web, PHP, GET参数]
 ---
 
 # Bugku CTF - GET Writeup
+
 ## 题目描述
 打开页面，直接显示一段PHP源码：
 ```php
@@ -13,6 +14,7 @@ $what=$_GET['what'];
 echo $what;
 if($what=='flag')
 echo 'flag{****}';
+
 ##解题思路
 
 这道题考察PHP的GET传参。$_GET['what']用于接收URL中GET方式传递的what参数。
@@ -25,6 +27,7 @@ echo 'flag{****}';
 2. 拼接后的完整URL格式：原地址?what=flag
 
 3. 访问拼接后的URL，页面返回flag。
+
 ##Flag
 
 flag{c864c478ecf15f5a44a2ee54cdc37a6e}
