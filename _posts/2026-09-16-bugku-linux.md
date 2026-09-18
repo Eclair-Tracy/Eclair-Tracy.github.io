@@ -1,8 +1,8 @@
 ---
-title：BugkuCTF-LinuxWriteup
-date：2026.09.16
-category：CTF
-tag：Misc
+title: BugkuCTF-LinuxWriteup
+date: 2026.09.16
+category: CTF
+tag: Misc
 ---
 ## 题目描述
 
