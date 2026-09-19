@@ -4,20 +4,16 @@ title: 幸福的原因是元英 | 网安我来啦
 ---
 
 <style>
-body {
-  background-color: #121218;
-  color: #ffffff;
-  font-family: system-ui, sans-serif;
-}
 .page-title{
   text-align:center;
   padding:30px 0 10px;
   font-size:42px;
   font-weight:bold;
+  color:#222;
 }
 .page-desc{
   text-align:center;
-  color:#bbbbbb;
+  color:#555;
   font-size:18px;
   margin-bottom:40px;
 }
@@ -27,35 +23,40 @@ body {
   padding:0 20px;
 }
 .ctf-card{
-  background-color:#1e1e2f;
+  background-color:#f7f8fa;
   border-radius:24px;
   padding:32px;
   margin-bottom:24px;
+  border:1px solid #e5e7eb;
 }
 .card-tag{
-  color:#82aaff;
+  color:#346edb;
   font-size:20px;
 }
 .card-title{
   font-size:48px;
   font-weight:bold;
   margin:8px 0 12px;
+  color:#222;
 }
 .card-desc{
-  color:#b8b8d4;
+  color:#444;
   font-size:17px;
   line-height:1.6;
 }
 .card-count{
   margin-top:20px;
   font-size:18px;
-  color:#cccccc;
+  color:#555;
 }
 .card-link{
   display:inline-block;
   margin-top:16px;
-  color:#82aaff;
+  color:#346edb;
   text-decoration:none;
+}
+.card-link:hover{
+  text-decoration:underline;
 }
 </style>
 
@@ -85,6 +86,6 @@ body {
     </div>
     {% assign ctfhub_posts = site.posts | where_exp:"post", "post.tags contains 'CTFHub'" %}
     <div class="card-count">{{ ctfhub_posts.size }} 篇</div>
-    <a class="card-link" href="/ctfhub/">查看全部Writeup →</a >
+    <a class="card-link" href="/ctfhub.html">查看全部Writeup →</a >
   </div>
 </div>
