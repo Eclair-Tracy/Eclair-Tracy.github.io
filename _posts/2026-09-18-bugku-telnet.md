@@ -2,7 +2,7 @@
 title: BugkuCTF-telnetWriteup
 date: 2026-09-18
 categories: [CTF,MISC]
-tags: [MISC, 流量分析， wireshark, telent协议]
+tags: [MISC, 流量分析, wireshark, telent协议, Bugku]
 ---
 ## 题目描述
 下载附件，分析telnet流量包，找到flag
