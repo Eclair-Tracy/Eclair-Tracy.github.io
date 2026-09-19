@@ -3,6 +3,8 @@ layout: default
 title: 幸福的原因是元英 | 网安我来啦
 ---
 
+[关于我](./about)
+
 # CTF Writeups
 按平台整理题目与解题记录
 
