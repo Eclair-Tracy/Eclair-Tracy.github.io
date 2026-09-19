@@ -7,7 +7,7 @@ permalink: /bugku/
 > 记录BugkuCTF靶场刷题笔记
 
 {% for post in site.posts %}
-{% if post.tags contains " Bugku""Bugku" %}
+{% if post.tags contains "Bugku" %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date:"%Y-%m-%d" }}
 {% endif %}
 {% endfor %}
