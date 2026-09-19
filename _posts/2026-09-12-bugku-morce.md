@@ -2,7 +2,7 @@
 title: BugkuCTF-Morse Writeup
 date: 2026-09-11
 categories: [CTF, Crypto]
-tags: [Crypto, 摩尔斯电码, Morse]
+tags: [Crypto, 摩尔斯电码, Morse, Bugku]
 ---
 
 # Bugku CTF - Morse Writeup
