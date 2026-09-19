@@ -1,13 +1,11 @@
 ---
-layout: page
-title: CTFHub 刷题汇总
-permalink: /ctfhub/
+layout: default
+title: CTFHub Writeups
 ---
-# CTFHub Writeup合集
-> 记录CTFHub靶场刷题笔记
 
-{% for post in site.posts %}
-{% if post.tags contains "CTFHub" %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date:"%Y-%m-%d" }}
-{% endif %}
+# CTFHub Writeups
+
+{% assign posts = site.posts | where_exp:"post", "post.tags contains 'CTFHub'" %}
+{% for post in posts %}
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
