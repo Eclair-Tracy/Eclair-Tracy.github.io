@@ -1,5 +1,6 @@
 ---
 title: HELLO I AM ECLAIR
-date: 2026-09-07
+layout: default
 ---
+# HELLO I AM ECLAIR
 I'm here, ready for the Cybersecurity world
