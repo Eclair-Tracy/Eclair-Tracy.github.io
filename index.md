@@ -4,7 +4,6 @@ title: 幸福的原因是元英 | 网安我来啦
 ---
 
 <style>
-/* 页面整体样式，复刻图2深色卡片风格 */
 body {
   background-color: #121218;
   color: #ffffff;
