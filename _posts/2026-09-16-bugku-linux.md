@@ -2,7 +2,7 @@
 title: BugkuCTF-LinuxWriteup
 date: 2026.09.16
 category: CTF
-tag: Misc
+tag: [Misc, Bugku]
 ---
 ## 题目描述
 
