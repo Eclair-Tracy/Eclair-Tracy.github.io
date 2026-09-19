@@ -8,5 +8,5 @@ permalink: /bugku.html
 
 {% assign posts = site.posts | where_exp:"post", "post.tags contains 'Bugku'" %}
 {% for post in posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url }}) {:data-pjax="false"}
 {% endfor %}
