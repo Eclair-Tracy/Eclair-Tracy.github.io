@@ -1,13 +1,11 @@
 ---
-layout: page
-title: BugkuCTF 刷题汇总
-permalink: /bugku/
+layout: default
+title: Bugku Writeups
 ---
-# BugkuCTF Writeup合集
-> 记录BugkuCTF靶场刷题笔记
 
-{% for post in site.posts %}
-{% if post.tags contains "Bugku" %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date:"%Y-%m-%d" }}
-{% endif %}
+# Bugku Writeups
+
+{% assign posts = site.posts | where_exp:"post", "post.tags contains 'Bugku'" %}
+{% for post in posts %}
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
