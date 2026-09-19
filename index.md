@@ -101,6 +101,6 @@ body {
     </div>
     {% assign ctfhub_posts = site.posts | where_exp:"post", "post.tags contains 'CTFHub'" %}
     <div class="card-count">{{ ctfhub_posts.size }} 篇</div>
-    <a class="card-link" href="/ctfhub.html">查看全部Writeup →</a >
+    <a class="card-link" href="https://eclair-tracy.github.io/ctfhub.html">查看全部Writeup →</a >
   </div>
 </div>
