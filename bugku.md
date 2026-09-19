@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bugku Writeups
+permalink: /bugku.html
 ---
 
 # Bugku Writeups
