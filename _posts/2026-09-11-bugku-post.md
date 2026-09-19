@@ -2,7 +2,8 @@
 title: BugkuCTF-POST Writeup
 date: 2026-09-11
 categories: 【CTF，Web】
-tags: [Web, PHP, POST传参]
+tags: [Web, PHP, POST传参, ]
+tags: [Web, PHP, POST传参, Bugku]
 ---
 
 # Bugku CTF - POST
