@@ -17,7 +17,7 @@ title: 幸福的原因是元英 | 网安我来啦
 </a >
 
 {% assign ctfhub_posts = site.posts | where_exp:"post", "post.tags contains 'CTFHub'" %}
-<a href="/ctfhub/" data-pjax="false" style="display:block;width:320px;padding:24px;border:1px solid #ddd;border-radius:16px;text-decoration:none;color:inherit;">
+<a href="/ctfhub.html" data-pjax="false" style="display:block;width:320px;padding:24px;border:1px solid #ddd;border-radius:16px;text-decoration:none;color:inherit;">
   <h3 style="color:#4183c4;margin:0 0 8px 0;">CTFHUB</h3>
   <h2 style="margin:0 0 12px 0;">CTFHub</h2>
   <p style="color:#555;">CTFHub 技能树与综合题目的解题记录。</p >
