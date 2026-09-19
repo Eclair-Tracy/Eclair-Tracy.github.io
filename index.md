@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 幸福的原因是元英 | 网安我来啦
+title: 幸福的原因是元英 | I AM
 ---
 
 <span style="color:#ff69b4;">[👋 关于我](./about)</span>
