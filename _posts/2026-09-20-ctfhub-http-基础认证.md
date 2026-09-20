@@ -2,7 +2,7 @@
 Title: CTFHub-HTTP-基础认证Writeup
 Date: 2026-09-20
 Category: Web安全
-Tags: [Web, HTTP Basic Auth, 暴力破解, Python爆破脚本, CTFHub]
+Tags: [Web, 暴力破解, Python爆破脚本, CTFHub]
 ---
 ## 题目原理
 HTTP Basic Auth 是简易的Web认证方式。访问目标页面时，浏览器弹出账号密码弹窗。服务端接收Authorization请求头进行校验：
