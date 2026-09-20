@@ -1,5 +1,5 @@
 ---
-Title: CTFHub HTTP基础认证爆破
+Title: CTFHub-HTTP-基础认证Writeup
 Date: 2026-09-20
 Category: Web安全
 Tags: [Web, HTTP Basic Auth, 暴力破解, Python爆破脚本, CTFHub]
