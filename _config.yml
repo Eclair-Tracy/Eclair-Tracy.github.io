@@ -1,4 +1,43 @@
-remote_theme: pages-themes/cayman@v0.2.0
-title: "Eclair-Tracy 的技术博客"
-description: Ready for the Cybersecurity world
 
+
+# 站点基础
+title: CTFHub Writeups
+description: CTF学习笔记
+baseurl: ""
+url: "https://eclair-tracy.github.io"
+
+# 主题
+remote_theme: daattali/beautiful-jekyll
+
+# 顶部横幅（hero图，保留你原来的大图风格）
+hero_image: "/IMG_4057.jpeg"
+hero_text: "CTF Writeups"
+
+# 配色（粉色系，和你原来页面风格匹配）
+theme_color: hotpink
+
+# 自动文章链接规则
+permalink: /:year/:month/:day/:title/
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 分页
+paginate: 10
+paginate_path: "/page:num/"
+
+# 导航栏
+navbar_links:
+  - name: 首页
+    link: /
+  - name: CTFHub
+    link: /ctfhub.html
+  - name: Bugku
+    link: /bugku.html
+
+# 排除文件
+exclude:
+  - README.md
