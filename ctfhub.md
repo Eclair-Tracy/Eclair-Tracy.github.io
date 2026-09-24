@@ -6,11 +6,12 @@ permalink: /ctfhub.html
 
 <style>
 body {
-background-image: url("/u.jpg");
+background-image: url("/yes.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 }
+a{pointer-events:auto;}
 </style>
 
 # <span style="color:#b04874;">CTFHub Writeups</span>
