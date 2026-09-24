@@ -5,22 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title }}</title>
 <style>
-/* 背景只给body，不要额外叠加遮挡层 */
+html {
+  min-height: 100%;
+}
 body {
   background-image: url("/u.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height:100vh;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
 }
-/* 强制所有链接可点击，优先级最高 */
 a {
-  pointer-events: auto !important;
-  cursor: pointer !important;
+  cursor: pointer;
 }
 </style>
 </head>
 <body>
+<div style="position:relative;z-index:2;padding:20px;">
 {{ content }}
+</div>
 </body>
 </html>
