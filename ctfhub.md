@@ -6,7 +6,7 @@ permalink: /ctfhub.html
 
 <style>
 body {
-background-image: url("/u.jpg");
+background-image: url("/yes.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -19,11 +19,11 @@ background-attachment: fixed;
 {% for post in site.posts %}
 {% if post.tags contains "CTFHub" %}
 <div style="margin:12px 0;">
-<span><a href=" " style="color:#b04874;text-decoration:none;font-weight:bold;">{{post.title}}</a ></span>
+<a href=" " style="color:#b04874;text-decoration:none;font-weight:bold;display:block;">{{post.title}}</a >
 <p style="color:#594338;margin:4px 0;">{{post.date | date: "%Y-%m-%d"}}</p >
 </div>
 {% endif %}
 {% endfor %}
 
 <br>
-<span><a href="/" style="color:#000000;text-decoration:none;">← 返回首页</a ></span>
+<a href="/" style="color:#000000;text-decoration:none;">← 返回首页</a >
