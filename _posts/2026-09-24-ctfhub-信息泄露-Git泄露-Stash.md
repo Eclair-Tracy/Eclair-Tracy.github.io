@@ -18,7 +18,7 @@ pip install GitHacker
 
 ## 解题步骤
 1.使用githacker下载泄露的.git仓库
-githacker --url http://challenge-b885682dea1eff35.sandbox.ctfhub.com:10800/.git/ --output-folder git_result
+githacker --url http://靶场/.git/ --output-folder git_result
 2.查看下载目录，进入仓库文件夹
 dir git_result
 cd git_rusult\1b4771342f65ca18c7b595b3d50d3d0b
