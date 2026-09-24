@@ -3,6 +3,14 @@ layout: default
 title: 幸福的原因是元英 | I AM
 ---
 
+<style>
+  body {
+    background-image: url("/IMG_4057.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
 <span style="color:#ff69b4;font-size:1.1rem;">
   🎀 <a href=" " style="color:#ff69b4;text-decoration:none;">关于我</a > 🎀
 </span>
