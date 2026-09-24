@@ -2,15 +2,22 @@
 layout: default
 ---
 <article class="post">
-  <h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
+<div style="color:#594338; margin-bottom:2rem; font-size:16px;">
+📅发布时间：{{ page.date | date: "%Y-%m-%d" }}
+<br>
+🏷️标签：{{ page.tags | join: ", " }}
+</div>
 
-  <div style="color:#666; margin-bottom:2rem; font-size:16px;">
-    📅 发布时间：{{ page.date | date: "%Y-%m-%d" }}
-    <br>
-    🏷️ 标签：{{ page.tags | join: ", " }}
-  </div>
+<div class="post-content">
+{{ content }}
+</div>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+<div style="margin-top:30px;">
+<a href=" " style="color:#b04874;text-decoration:none;">← 返回CTFHub列表</a >
+<br>
+<a href="/bugku.html" style="color:#b04874;text-decoration:none;">← 返回Bugku列表</a >
+<br>
+<a href="/" style="color:#b04874;text-decoration:none;">← 返回首页</a >
+</div>
 </article>
