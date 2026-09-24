@@ -6,7 +6,7 @@ permalink: /ctfhub.html
 
 <style>
 body {
-background-image: url("/yes.jpg");
+background-image: url("/u.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
