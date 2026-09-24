@@ -13,7 +13,7 @@ title: 幸福的原因是元英 | I AM
 </style>
 
 <span style="color:#b04874;font-size:1.1rem;">
-🎀 <a href=" " style="color:#b04874;text-decoration:none;">关于我</a > 🎀
+🎀 <a href="about.html" style="color:#b04874;text-decoration:none;">关于我</a> 🎀
 </span>
 
 # <span style="color:#b04874;">CTF Writeups</span>
