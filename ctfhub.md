@@ -1,5 +1,4 @@
 ---
-layout: default
 title: CTFHub Writeups
 permalink: /ctfhub.html
 ---
