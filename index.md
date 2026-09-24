@@ -5,7 +5,7 @@ title: 幸福的原因是元英 | I AM
 
 <style>
   body {
-    background-image: url("/IMG_4057.jpeg");
+    background-image: url("/啦啦啦.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
