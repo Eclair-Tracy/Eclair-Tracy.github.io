@@ -19,7 +19,7 @@ background-attachment: fixed;
 {% for post in site.posts %}
 {% if post.tags contains "Bugku" %}
 <div style="margin:12px 0;">
-<a href="_posts" style="color:#b04874;text-decoration:none;font-weight:bold;display:block;">{{post.title}}</a>
+<a href="{{ post.url }}" style="color:#b04874;text-decoration:none;font-weight:bold;display:block;">{{post.title}}</a>
 <p style="color:#594338;margin:4px 0;">{{post.date | date: "%Y-%m-%d"}}</p>
 </div>
 {% endif %}
