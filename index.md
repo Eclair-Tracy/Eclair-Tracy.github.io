@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 幸福的原因是元英 | I AM
+title: Eclair in the Cyber World
 ---
+# <span style="color:#b04874;">幸福的原因是元英 | I AM</span>
 
 <style>
   body {
