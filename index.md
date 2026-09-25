@@ -23,10 +23,10 @@ title: 幸福的原因是元英 | I AM
 ## <span style="color:#b04874;">BUGKU CTF</span>
 <span style="color:#594338;">Bugku Web、Misc、Crypto、Reverse、Pwn等入门题目的解题记录。<br>共 {{ bugku_posts.size }} 篇</span>
 
-<span style="color:#594338;"><a href="/bugku.html" style="color:#000000;text-decoration:none;">查看全部writeup -></a></span>
+<span style="color:#594338;"><a href="bugku.md" style="color:#000000;text-decoration:none;">查看全部writeup -></a></span>
 
 {% assign ctfhub_posts = site.posts | where_exp:"post", "post.tags contains 'CTFHub'" %}
 ## <span style="color:#b04874;">CTFHub</span>
 <span style="color:#594338;">CTFHub技能树与综合题目的解题记录。<br>共 {{ ctfhub_posts.size }} 篇</span>
 
-<span style="color:#594338;"><a href="/ctfhub.html" style="color:#000000;text-decoration:none;">查看全部writeup -></a></span>
+<span style="color:#594338;"><a href="ctfhub.md" style="color:#000000;text-decoration:none;">查看全部writeup -></a></span>
