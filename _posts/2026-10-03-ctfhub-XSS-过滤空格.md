@@ -44,7 +44,9 @@ Payload
 
 4. 同域发起请求，成功读取document.cookie并带出到Webhook
 
+5. 在Hook0的请求记录中，查看Query参数c的值，即为flag。
+
 ## Flag
 ctfhub{fb1127ef5e3f33d833ce4783}
-6. 在Hook0的请求记录中，查看Query参数c的值，即为flag。
+
 
