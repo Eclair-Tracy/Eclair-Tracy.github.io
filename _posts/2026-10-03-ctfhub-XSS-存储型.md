@@ -19,7 +19,7 @@ tags: [CTFHub, XSS]
 ## 解题过程
 1. 开启 CTFHub 存储型XSS靶场，进入题目环境，页面存在 Change name 输入框和 Bot 发包功能。
 
-2. 首先使用简单弹窗 Payload <script>alert(1)</script> 进行测试，提交后页面成功弹窗，确认题目不过滤 script 标签、不转义特殊字符，存在可用XSS漏洞。
+2. 首先使用简单弹窗 进行测试，提交后页面成功弹窗，确认题目不过滤 script 标签、不转义特殊字符，存在可用XSS漏洞。
 
 3. 为了测试页面跳转效果，使用 location.href 跳转测试 Payload 提交，验证 JS 可正常执行。
 
