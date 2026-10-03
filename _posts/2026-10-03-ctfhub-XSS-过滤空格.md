@@ -1,7 +1,7 @@
 ---
 title: CTFHub-XSS-过滤空格 Writeup
 date: 2026-10-03
-category: web
+category: Web
 tags:[CTFHub, XSS, 过滤空格]
 ---
 ## 题目描述
