@@ -1,8 +1,8 @@
 ---
 title: CTFHub-XSS-DOM跳转 Writeup
 date: 2026-10-16
-category:[web]
-tags:[CTFHub, web, XSS]
+category: [web]
+tags: [CTFHub, web, XSS]
 ---
 ## 考点分析
 DOM型XSS、javascript: 伪协议利用、浏览器地址栏转码绕过（免引号执行）、带外数据（OOB）外带。
