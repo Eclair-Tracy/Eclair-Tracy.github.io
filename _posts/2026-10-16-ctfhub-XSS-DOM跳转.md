@@ -1,7 +1,7 @@
 ---
 title: CTFHub-XSS-DOM跳转 Writeup
 date: 2026-10-16
-category: web
+category:[web]
 tags:[CTFHub, web, XSS]
 ---
 ## 考点分析
