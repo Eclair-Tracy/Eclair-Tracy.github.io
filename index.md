@@ -30,4 +30,10 @@ title: Eclair in the Cybersecurity World
 ## <span style="color:#b04874;">CTFHub</span>
 <span style="color:#594338;">CTFHub技能树与综合题目的解题记录。<br>共 {{ ctfhub_posts.size }} 篇</span>
 
+{% assign pikachu_posts = site.posts | where_exp:"post", "post.tags contains 'Pikachu'" %}
+## <span style="color:#b04874;">Pikachu</span>
+<span style="color:#594338;">Pikachu靶场Web漏洞练习记录。<br>共 {{ pikachu_posts.size }} 篇</span>
+
+<span style="color:#594338;"><a href=" " style="color:#000000;text-decoration:none;">查看全部writeup -></a ></span>
+
 <span style="color:#594338;"><a href="/ctfhub.html" style="color:#000000;text-decoration:none;">查看全部writeup -></a></span>
