@@ -7,22 +7,7 @@ tags: [CTFHub, RCE, 文件包含, 伪协议]
 
 ## 漏洞分析
 ### 1. 源码审计
-访问靶机首页，页面给出的源码如下：
-<?php
-error_reporting(0);
-if (isset($_GET['file'])) {
-    if (!strpos($_GET["file"], "flag")) {
-        include $_GET["file"];
-    } else {
-        echo "Hacker!!!";
-    }
-} else {
-    highlight_file(__FILE__);
-}
-?>
-<hr>
-i don't have shell, how to get flag?<br>
-<a href="phpinfo.php">phpinfo</a>
+访问靶机首页，页面给出源码
 限制条件：使用 strpos() 检查 file 参数是否包含 flag，如果包含则拦截。
 提示信息：页面提示没有 shell，并提供了一个 phpinfo.php 链接。
 ### 2. 环境探测
