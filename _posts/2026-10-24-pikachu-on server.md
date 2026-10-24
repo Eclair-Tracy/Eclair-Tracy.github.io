@@ -1,5 +1,5 @@
 ---
-title: pikachu-暴力破解-验证码绕过(on server) Writeup
+title: Pikachu-暴力破解-验证码绕过(on server) Writeup
 date: 2026-10-24
 categories: [Pikachu]
 tags: [Pikachu, 暴力破解, 验证码绕过, burpsuite, web]
