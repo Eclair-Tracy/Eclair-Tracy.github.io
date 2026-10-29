@@ -1,6 +1,6 @@
 ---
 title: Pikachu XX型SQL注入 Writeup
-date: 2026-10-29 17:00:00
+date: 2026-10-29
 category: Web安全
 tags: [SQL注入, Pikachu, XX型注入]
 ---
