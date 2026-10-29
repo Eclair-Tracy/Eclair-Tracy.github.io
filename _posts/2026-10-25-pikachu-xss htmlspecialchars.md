@@ -2,7 +2,7 @@
 title: Pikachu - XSS之htmlspecialchars
 date: 2026-10-25
 categories: [Pikachu, Web安全]
-tags: [XSS, htmlspecialchars绕过, 反射型XSS]
+tags: [XSS, htmlspecialchars绕过, 反射型XSS, Pikachu]
 ---
 
 ## 靶场地址
