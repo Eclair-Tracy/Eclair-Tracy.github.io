@@ -2,7 +2,7 @@
 title: Pikachu - CSRF(get) Writeup
 date: 2026-10-25
 categories: [Pikachu, Web安全]
-tags: [CSRF, GET型跨站请求伪造]
+tags: [CSRF, GET型跨站请求伪造, Pikachu]
 ---
 ## 靶场地址
 127.0.0.1/pikachu/vul/csrf/csrfget/csrf_get_login.php
