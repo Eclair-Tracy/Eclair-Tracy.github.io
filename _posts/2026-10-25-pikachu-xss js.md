@@ -2,7 +2,7 @@
 title: Pikachu - XSS之js输出 Writeup
 date: 2026-10-25
 categories: [Pikachu, Web安全]
-tags: [XSS, JS输出注入, 反射型XSS]
+tags: [XSS, JS输出注入, 反射型XSS,Pikachu]
 ---
 
 ## 靶场地址
