@@ -2,7 +2,7 @@
 title: Pikachu - XSS之href输出
 date: 2026-10-25
 categories: [Pikachu, Web安全]
-tags: [XSS, href伪协议, 反射型XSS]
+tags: [XSS, href伪协议, 反射型XSS, Pikachu]
 ---
 
 ## 靶场地址
