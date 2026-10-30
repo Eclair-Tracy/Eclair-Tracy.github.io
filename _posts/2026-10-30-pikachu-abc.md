@@ -1,6 +1,6 @@
 ---
 title: Pikachu 敏感信息泄露 Writeup
-date: 2026-10-31
+date: 2026-10-30
 category: Web安全
 tags: [敏感信息泄露,源码注释,Pikachu]
 ---
