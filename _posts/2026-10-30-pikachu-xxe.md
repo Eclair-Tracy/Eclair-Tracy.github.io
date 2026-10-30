@@ -1,6 +1,6 @@
 ---
 title: Pikachu XXE漏洞实验报告
-date: 2026-10-31
+date: 2026-10-30
 category: Web安全
 tags: [XXE, XML外部实体注入, Pikachu]
 ---
