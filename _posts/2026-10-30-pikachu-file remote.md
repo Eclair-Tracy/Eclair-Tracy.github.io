@@ -2,7 +2,7 @@
 title: Pikachu-File INclusion(remote) Writeup
 date: 2026-10-30
 category: web
-tags:[ File Inclusion, Pikachu]
+tags: [ File Inclusion, Pikachu]
 ---
 ## 一、漏洞介绍
 远程文件包含漏洞（RFI），当 PHP 配置中 `allow_url_fopen` 和 `allow_url_include` 均开启时，`include()` 等文件包含函数支持通过 http 协议加载远程文件。若 filename 参数可控且无过滤，攻击者可以构造远程文件地址，让服务器加载并执行恶意 PHP 代码。
