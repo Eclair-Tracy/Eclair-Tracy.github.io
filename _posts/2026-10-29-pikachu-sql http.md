@@ -1,7 +1,6 @@
-Pikachu http header注入 Writeup
 ---
 title: Pikachu http header注入实验报告
-date: 2026-10-30
+date: 2026-10-29
 category: Web安全
 tags: [SQL注入, http header注入, 报错注入, burp抓包, Pikachu]
 ---
