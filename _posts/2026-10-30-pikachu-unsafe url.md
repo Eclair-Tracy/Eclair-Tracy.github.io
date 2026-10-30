@@ -1,6 +1,6 @@
 ---
 title: Pikachu 不安全URL跳转Writeup
-date: 2026-10-31
+date: 2026-10-30
 category: Web安全
 tags: [URL跳转, 开放重定向, Pikachu]
 ---
