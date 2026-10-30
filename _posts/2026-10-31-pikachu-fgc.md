@@ -2,7 +2,7 @@
 title: Pikachu SSRF(file_get_content) 实验报告
 date: 2026-10-31
 category: Web安全
-tags: [SSRF, file_get_contents, php伪协议]
+tags: [SSRF, file_get_contents, php伪协议, Pikachu]
 ---
 ## 一、实验环境
 靶场平台：Pikachu
