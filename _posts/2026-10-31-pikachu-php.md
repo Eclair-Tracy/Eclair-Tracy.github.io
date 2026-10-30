@@ -1,6 +1,6 @@
 ---
 title: Pikachu PHP反序列化 Writeup
-date: 2026-10-30
+date: 2026-10-31
 category: Web安全
 tags: [PHP反序列化,unserialize,Pikachu]
 ---
