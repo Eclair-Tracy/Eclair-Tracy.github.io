@@ -1,6 +1,6 @@
 ---
 title: Pikachu SSRF实验报告
-date: 2026-10-31
+date: 2026-10-30
 category: Web安全
 tags: [SSRF, curl, file_get_contents, Pikachu]
 ---
