@@ -1,6 +1,5 @@
-Pikachu 基于时间的盲注（时间盲注 time based）Writeup
 ---
-title: Pikachu 时间盲注实验报告
+title: Pikachu 时间盲注writeup
 date: 2026-10-30
 category: Web安全
 tags: [SQL注入, 时间盲注, sleep延时注入, Pikachu]
