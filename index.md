@@ -37,3 +37,9 @@ title: Eclair in the Cybersecurity World
 <span style="color:#594338;">Pikachu靶场Web漏洞练习记录。<br>共 {{ pikachu_posts.size }} 篇</span>
 
 <span style="color:#594338;"><a href="/pikachu.html" style="color:#000000;text-decoration:none;">查看全部writeup -></a ></span>
+
+{% assign sqli_posts = site.posts | where_exp:"post", "post.tags contains 'Sqli-labs'" %}
+## <span style="color:#b04874;">Sqli-labs</span>
+<span style="color:#594338;">SQL注入闯关练习记录。<br>共 {{ sqli_posts.size }} 篇</span>
+
+<span style="color:#594338;"><a href="/sqli.html" style="color:#000000;text-decoration:none;">->查看全部writeup -/></a ></span>
