@@ -42,4 +42,4 @@ title: Eclair in the Cybersecurity World
 ## <span style="color:#b04874;">Sqli-labs</span>
 <span style="color:#594338;">SQL注入闯关练习记录。<br>共 {{ sqli_posts.size }} 篇</span>
 
-<span style="color:#594338;"><a href="/sqli.html" style="color:#000000;text-decoration:none;">->查看全部writeup -/></a ></span>
+<span style="color:#594338;"><a href="/sqli.html" style="color:#000000;text-decoration:none;">查看全部writeup -></a ></span>
