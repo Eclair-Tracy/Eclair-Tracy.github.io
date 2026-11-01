@@ -1,8 +1,9 @@
- ---
+---
 layout: default
 title: Sqli-labs Writeups
 permalink: /sqli.html
 ---
+
 <style>
 body {
 background-image: url("/u.jpg");
